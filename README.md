@@ -26,7 +26,7 @@ The algorithm loops until the number of misclassifications is less than `thresho
 
 The implementation `pocket.py` mostly follows the perceptron.py program with the exception that the labels make the data not linearly separable. The algorithm iterates 7000 times, appending `num_violated` to `violated_counts`. `best_weights` keeps track of the weights that correspond to the iteration that gives the least value for violated constraints – `min_violated`. The number of misclassifications is plotted against the number of iterations, in steps of 100.
 
-![]()
+![](https://github.com/ShreyasKolpe/LinearClassfiers/blob/master/constraints_violated.png)
 
 ## Logistic Regression
 
